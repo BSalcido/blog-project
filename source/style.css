@@ -1,3 +1,69 @@
+:root {
+  --primary-color: #630000;
+  --secondary-color: #d8b6a4;
+  --primary-light-color: #fdf8f3;
+  --secondary-light-color: #eeebdd;
+}
+
 body {
   font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+.all {
+  margin: 0 110px 0 110px;
+}
+
+h2 {
+  margin-top: ;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 72px;
+  margin: 58px auto;
+  font-weight: 700;
+}
+
+.introduction {
+  margin-bottom: 58px;
+}
+.btn-branding {
+  color: var(--primary-light-color);
+  background-color: var(--secondary-color);
+  padding: 18px 30px;
+  border-radius: 50px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 87px;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: var(--primary-light-color);
+  color: var(--secondary-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.single-light-icon {
+  width: 50px;
+  margin-left: 50px;
+}
+
+.social-network-link {
+  color: var(--secondary-color);
+}
+.social-network-link:hover {
+  color: var(--primary-color);
+}
+.sn-icon {
+  font-size: 20px;
+}
+
+.footer-note {
+  font-size: 10px;
+  text-align: right;
 }

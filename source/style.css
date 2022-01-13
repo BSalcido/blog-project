@@ -40,6 +40,11 @@ h1 {
   margin-bottom: 87px;
 }
 
+.btn-branding:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-light-color);
+}
+
 footer {
   margin-top: 50px;
   background-color: var(--primary-light-color);

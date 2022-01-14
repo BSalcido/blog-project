@@ -10,8 +10,29 @@ body {
   text-align: center;
 }
 
+.navbar {
+  background-color: var(--secondary-color) !important;
+}
+
+.navbar-brand {
+  color: var(--primary-light-color) !important;
+}
+
+.nav-link {
+  color: var(--primary-light-color) !important;
+}
+
+.nav-link:hover {
+  color: var(--secondary-light-color) !important;
+}
+
+.active-link {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+}
+
 .all {
-  margin: 0 110px 0 110px;
+  margin: 50px 110px 0 110px;
 }
 
 h2 {

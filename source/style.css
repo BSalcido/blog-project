@@ -5,9 +5,21 @@
   --secondary-light-color: #eeebdd;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   text-align: center;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
 }
 
 .navbar {
@@ -36,7 +48,8 @@ body {
 }
 
 .content-wrap {
-  margin: 50px 110px 0 110px;
+  padding: 50px 110px 60px 110px;
+  margin: 0;
 }
 
 h2 {
@@ -69,12 +82,20 @@ h1 {
   background-color: var(--secondary-light-color);
 }
 
+#img-homepage {
+  margin-bottom: 50px;
+}
+
 footer {
-  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
   background-color: var(--primary-light-color);
   color: var(--secondary-color);
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 0;
 }
 
 .single-light-icon {
@@ -119,10 +140,15 @@ footer {
 
 @media (max-width: 450px) {
   .content-wrap {
-    margin: 20px 70px 0 70px;
+    padding: 20px 70px 50px 70px;
   }
   .navbar-brand-icon {
     height: 35px;
+  }
+  footer {
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .footer-note {
     font-size: 7px;
@@ -132,10 +158,7 @@ footer {
     font-size: 18px;
     padding: 2px;
   }
-  footer {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
+
   .single-light-icon {
     width: 40px;
     margin-left: 25px;

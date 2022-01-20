@@ -190,8 +190,8 @@ h4 {
     font-size: 18px;
   }
   h1 {
-    font-size: 50px;
-    margin: 45px auto;
+    font-size: 45px;
+    margin: 40px auto;
   }
   .introduction {
     margin-bottom: 25px;
@@ -272,4 +272,22 @@ h4 {
   .entries-stack {
     margin-bottom: 60px;
   }
+}
+
+.modal-content {
+  background: none;
+  border: none;
+}
+.modal-header {
+  border: none;
+}
+
+.modal-body {
+  padding: 0;
+  border: none;
+  position: relative;
+}
+.modal-footer {
+  border: none;
+  margin-top: 60px;
 }

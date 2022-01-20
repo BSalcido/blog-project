@@ -291,3 +291,16 @@ h4 {
   border: none;
   margin-top: 60px;
 }
+
+.gallery-grid {
+  margin: auto 20px auto 20px;
+}
+
+#gallery.row {
+  padding: 0;
+}
+
+.img-item {
+  padding: 10px;
+  margin: 0;
+}

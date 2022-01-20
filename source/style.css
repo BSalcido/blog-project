@@ -213,6 +213,15 @@ h4 {
   .about-img {
     height: 300px;
   }
+
+  .about-header {
+    margin: 23px auto 12px;
+    text-align: center;
+  }
+  .about-me-content {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -247,18 +256,12 @@ h4 {
   .social-logo {
     width: 50px;
   }
-  .about-me-content {
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
 
   .social-networks {
     margin-top: 70px;
     margin-bottom: 50px;
   }
-  .about-header {
-    margin: 23px auto 12px;
-  }
+
   p,
   .contact-link {
     font-size: 14px;

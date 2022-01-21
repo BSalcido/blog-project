@@ -160,6 +160,10 @@ p,
   opacity: 0.6;
 }
 
+.blog-img {
+  border-radius: 25px
+}
+
 h4 {
   font-weight: bold;
   font-size: 36px;
@@ -260,7 +264,7 @@ h4 {
 
 @media (max-width: 450px) {
   .content-wrap {
-    padding: 20px 70px 50px 70px;
+    padding: 20px 50px 40px 50px;
   }
   .navbar-brand-icon {
     height: 35px;

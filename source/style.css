@@ -185,6 +185,20 @@ h4 {
   margin-bottom: 100px;
 }
 
+.contact-info-wrap {
+  margin-bottom: 80px;
+  padding: 0 100px 0 100px;
+}
+
+.mailto-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.mailto-link:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 750px) {
   h2 {
     font-size: 18px;
@@ -222,6 +236,26 @@ h4 {
     margin-top: 5px;
     margin-bottom: 10px;
   }
+
+  .contact-info-wrap {
+    margin-bottom: 35px;
+    padding: 0 20px 0 20px;
+  }
+
+  .contact-img {
+    margin-bottom: 30px;
+  }
+}
+
+h4 {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-information {
+  margin-bottom: 45px;
 }
 
 @media (max-width: 450px) {
